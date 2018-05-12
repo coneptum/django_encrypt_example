@@ -1,0 +1,16 @@
+version: '2'
+services:
+  db:
+    image: postgres
+    ports:
+      - 4432:5432
+  web:
+    build: .
+    image: django-encrypt-example
+    command: /code/docker-entrypoint.sh
+    volumes:
+      - ./code:/code
+    ports:
+      - 8000:8000
+    stdin_open: True
+    tty: True
