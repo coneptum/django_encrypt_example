@@ -1,4 +1,5 @@
-## Example of how to use [django-cryptography] package to build GDPR-complaint django apps
+## Example of how to use [django-cryptography](https://github.com/georgemarshall/django-cryptography)
+package to build GDPR-complaint django apps
 
 To run this example, you just need a working docker installation and to run the command:
 ```
