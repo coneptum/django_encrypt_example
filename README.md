@@ -1,5 +1,8 @@
 ## Example of how to use [django-cryptography] package to build GDPR-complaint django apps
 
-WIP
+To run this example, you just need a working docker installation and to run the command:
+```
+docker-compose up -d
+```
 
-django-admin startproject django_encrypt_example /code
+For more details about this example, you should read this [post](https://www.coneptum.com/blog/2018/05/01/django-gdpr/)
